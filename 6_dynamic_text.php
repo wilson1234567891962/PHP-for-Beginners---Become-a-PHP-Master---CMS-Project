@@ -5,11 +5,22 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-       $numberList = array();
+ 
+ <?php 
+
+$title = "Edwin Diaz's Site";
     
-       echo 54+56;
-      
-    ?>
+?>
+  
+  
+
+  
+ <h1><?php echo $title; ?></h1>  
+   
+   
+   
+    
 </body>
 </html>
+
+

@@ -5,10 +5,19 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-       
-       
-       echo "Hello Students";
-    ?>
+
+<?php 
+
+for($counter = 0; $counter < 10; $counter++){
+
+    echo $counter . "<br>" ;
+
+}
+    
+    
+    
+?>
+
+
 </body>
 </html>

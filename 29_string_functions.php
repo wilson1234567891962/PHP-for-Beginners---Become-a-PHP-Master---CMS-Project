@@ -5,34 +5,25 @@
     <title>Document</title>
 </head>
 <body>
+
 <?php
 
+$string = "Hello student do you like the class";
 
-echo pow(2,7);
-
-echo "<br>";
-
-echo rand(1, 1000);
+echo strlen($string);
 
 echo "<br>";
 
-echo sqrt(100);
+echo strtoupper($string);
 
 echo "<br>";
 
-echo ceil(4.6);
+echo strtolower($string);
 
-echo "<br>";
 
-echo floor(4.6);
 
-echo "<br>";
-
-echo round(4.5);
-
+    
 ?>
-
-
 
 </body>
 </html>

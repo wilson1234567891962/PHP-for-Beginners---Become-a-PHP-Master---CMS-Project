@@ -1,3 +1,9 @@
+<?php session_start();
+
+$_SESSION['greeting'] = "Hello Student this is awesome";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,10 +11,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-       if(3 < 10){
-           echo "three is less than ten";
-       }
-    ?>
+
 </body>
 </html>

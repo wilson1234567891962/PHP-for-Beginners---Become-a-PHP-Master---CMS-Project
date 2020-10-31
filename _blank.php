@@ -5,9 +5,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-       $name = 'CONCEPTO';
-       $number = 3;
-    ?>
+
 </body>
 </html>

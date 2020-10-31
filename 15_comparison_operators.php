@@ -47,12 +47,10 @@ if(4 !== 4 || 5 < 10 ) {
 }
 
 
-if(5.1 <> 5) {
+if(4 <> 5) {
 
     echo "it is true";
 
-} else {
-    echo "it is false";
 }
 
 

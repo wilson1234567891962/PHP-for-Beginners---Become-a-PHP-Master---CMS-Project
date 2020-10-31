@@ -5,34 +5,26 @@
     <title>Document</title>
 </head>
 <body>
-<?php
 
+<?php 
 
-echo pow(2,7);
+$list = [343,34,323,23,54,232,453];
+
+echo max($list);
+
+echo "<br>";
+    
+echo min($list);
+
 
 echo "<br>";
 
-echo rand(1, 1000);
+sort($list);
+    
+print_r($list);
 
-echo "<br>";
-
-echo sqrt(100);
-
-echo "<br>";
-
-echo ceil(4.6);
-
-echo "<br>";
-
-echo floor(4.6);
-
-echo "<br>";
-
-echo round(4.5);
 
 ?>
-
-
 
 </body>
 </html>
